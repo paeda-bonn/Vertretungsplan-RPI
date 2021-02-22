@@ -1,0 +1,7 @@
+@unclutter -idle 0
+
+@xset s noblank
+@xset s off
+@xset -dpms
+
+@chromium-browser --check-for-update-interval=604800 --kiosk https://vplan.moodle-paeda.de/display/index.html
